@@ -1,0 +1,308 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    scroll-behavior: smooth;
+}
+
+/* headerTop = search bar, cart logo and logo prix marché */
+.headerTop{
+    background-color: #575555;
+    width: 100%;
+    height: 100px;
+    border-bottom: 4px solid orange;
+    display: flex;
+    flex-direction: row;
+}
+
+.headerTop img{
+    padding: 30px;
+    position: relative;
+    right: 150px;
+}
+
+.cart_class{
+    width: 0px
+}
+.cart_class img{
+    width: 50px;
+    height: 50px;
+}
+
+.search{
+    margin-top: 30px;
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.onFile{
+    background-color: #fff;
+    border: 2px solid orange;
+}
+
+.onFile a{
+   color: orange; 
+}
+
+h1{
+    text-align: center;
+    padding: 2% 0%;
+    border-top: 2px solid #fff;
+    width: 80%;
+    text-align: center;
+    margin-right: 0%;
+}
+
+section{
+    background-color: rgb(246, 243, 243);
+    display: flex;
+    justify-content: right;
+    
+}
+
+
+/* navbar */
+.container{
+    background-color:#575555;
+    padding: 2%;
+    margin-left: 0%;
+    position: relative;
+    bottom: 108px;
+    width: 16%;
+    
+}
+
+section ul{
+    background-color: #575555;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 95%;
+    padding: 2%;
+    
+}
+
+
+
+section li {
+    padding:5%;
+    list-style-type: none;
+    background-color: orange;
+    margin: 1px;
+    color: inherit;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+section li a{
+    text-decoration: none;
+    color: inherit;
+    color: #fff;
+    padding: 5%;
+}
+
+section li:hover{
+    background-color: #fff;
+    color: orange;
+    border: 2px solid orange;
+}
+
+section li a:hover{
+    color: orange;
+}
+
+/* "products" is the container that contains each "product" */
+
+.products{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.products img{
+    width: 250px;
+    height: 250px;
+    padding: 5%;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 2%;
+    width: 250px;
+    height: 300px;
+    margin-bottom: 5%;
+}
+
+/* button for add to cart */
+
+.addToCArt{
+    margin: 2%;
+    background-color: orange;
+    border: #fff;
+    padding: 2%;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.addToCArt:hover{
+    background-color: #fff;
+    color: orange;
+    border: 2px solid orange;
+}
+
+/* account */
+
+.accountForm{
+margin-left: 0%;
+margin-top: 10%;
+padding-top: 5%;
+background-color: #575555;
+
+border-radius: 10px;
+color: orange;
+width: 30%;
+text-align: center;
+height: 300px;
+}
+
+.buttonForm{
+    margin-top: 5%;
+    padding: 10px;
+    background-color: orange;
+    color: #fff;
+    border-radius: 10px;
+    width: 100px;
+}
+
+.checkboxForm{
+    margin-top: 5%;
+}
+
+/* cart */
+.cart {
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cart h2 {
+    font-size: 48px;
+  }
+  
+  .lineCart {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .lineCart div {
+    display: inline-block;
+  }
+  
+  .articleCart {
+    width: 15%
+  }
+  
+  .descriptionCart {
+    width: 50%;
+  }
+  
+  .unitPrice {
+    width: 11%;
+  }
+  
+  .quantity {
+    width: 11%;
+  }
+  
+  .price {
+    width: 11%;
+  }
+  
+  .quantityButton {
+    background-color:orange;
+    border-radius: 5px;
+    width: 30%;
+    color: #fff;
+  }
+
+  
+  .importantText {
+    color: rgba(241, 106, 60, 1);
+  }
+  
+  .submit {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 100px 10% 0;
+  }
+  
+  .submitOrder {
+    width: 250px;
+    font-size: 24px;
+    background-color: orange;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+.submitOrder:hover{
+    background-color: #fff;
+    color: orange;
+}
+
+/* mentions légales */
+.mention{
+    width: 60%;
+    margin: 10%;
+    font-size: 20px;
+}
+
+/* footer */
+footer{
+    background-color: #575555;
+    height: 300px;
+    padding: 2%;
+    border-top: 4px solid orange;
+    margin-top: 2%;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
+
+footer li a{
+    text-decoration: none;
+    color: inherit;
+    color: orange;
+}
+
+footer li a:hover{
+    color: #fff;
+}
+
+.pics{
+    width: 400px;
+}
+.pics img{
+    width: 50px;
+    height: 50px;
+    margin: 10%;
+}
+
+.block{
+    display: flex;
+    flex-direction: row;
+}
+
+.top img{
+    transform: rotate(270deg);
+}
