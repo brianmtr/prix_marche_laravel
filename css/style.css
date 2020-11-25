@@ -95,6 +95,7 @@ section li {
     margin-bottom: 10%;
     border-radius: 5px;
     text-align: center;
+    margin-right: 25%;
 }
 
 section li a{
@@ -137,6 +138,7 @@ section li a:hover{
     opacity: 0; 
     z-index: 2; 
     -webkit-touch-callout: none;
+    color: #fff;
 }
 
 #menuToggle span{
@@ -165,7 +167,7 @@ section li a:hover{
 #menuToggle input:checked ~ span{
     opacity: 1;
     transform: rotate(45deg) translate(-2px, -1px);
-    background: #232323;
+    background: #adadad;
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3){
@@ -180,13 +182,13 @@ section li a:hover{
 
 #menu{
     position: absolute;
-    width: 250px;
+    width: 419px;
     margin: -100px 0 0 0;
     padding-left: 40px;
     padding-bottom: 20px;
     padding-top: 100px;
     right: -100px;
-    background: #f4ffff;
+    background: #555555;
     list-style-type: none;
     -webkit-font-smoothing: antialiased;
     transform-origin: 0% 0%;
@@ -198,6 +200,8 @@ section li a:hover{
 #menu li{
     padding: 5px 0;
     font-size: 15px;
+    text-decoration: none;
+    color: #fff;
 }
 
 #menuToggle input:checked ~ ul{
