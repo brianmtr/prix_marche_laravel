@@ -43,7 +43,7 @@ body{
 }
 
 .onFile a{
-   color: orange; 
+    color: orange; 
 }
 
 h1{
@@ -252,16 +252,16 @@ section li a:hover{
 /* account */
 
 .accountForm{
-margin-left: 0%;
-margin-top: 10%;
-padding-top: 5%;
-background-color: #575555;
-
-border-radius: 10px;
-color: orange;
-width: 30%;
-text-align: center;
-height: 300px;
+    margin-left: 0%;
+    margin-top: 10%;
+    padding-top: 5%;
+    background-color: #575555;
+    
+    border-radius: 10px;
+    color: orange;
+    width: 30%;
+    text-align: center;
+    height: 300px;
 }
 
 .buttonForm{
@@ -283,68 +283,68 @@ height: 300px;
     width: 80%;
     display: flex;
     flex-direction: column;
-  }
-  
-  .cart h2 {
+}
+
+.cart h2 {
     font-size: 48px;
-  }
-  
-  .lineCart {    width: 250px;
+}
+
+.lineCart {    width: 250px;
     height: 300px;
     margin: 30px 0;
     display: flex;
     align-items: center;
-  }
-  
-  .lineCart div {
+}
+
+.lineCart div {
     display: inline-block;
-  }
-  
-  .articleCart {
+}
+
+.articleCart {
     width: 15%
-  }
-  
-  .descriptionCart {
+}
+
+.descriptionCart {
     width: 50%;
-  }
-  
-  .unitPrice {
+}
+
+.unitPrice {
     width: 11%;
-  }
-  
-  .quantity {
+}
+
+.quantity {
     width: 11%;
-  }
-  
-  .price {
+}
+
+.price {
     width: 11%;
-  }
-  
-  .quantityButton {
+}
+
+.quantityButton {
     background-color:orange;
     border-radius: 5px;
     width: 30%;
     color: #fff;
-  }
+}
 
-  
-  .importantText {
+
+.importantText {
     color: rgba(241, 106, 60, 1);
-  }
-  
-  .submit {
+}
+
+.submit {
     display: flex;
     justify-content: flex-end;
     padding: 0 100px 10% 0;
-  }
-  
-  .submitOrder {
+}
+
+.submitOrder {
     width: 250px;
     font-size: 24px;
     background-color: orange;
     border-radius: 10px;
     color: #fff;
-  }
+}
 
 .submitOrder:hover{
     background-color: #fff;
@@ -406,6 +406,7 @@ footer li a:hover{
     display: none;
 }
 
+/* All media querry */
 
 @media screen and (max-width: 1500px){
     h1{
@@ -416,7 +417,7 @@ footer li a:hover{
         position: relative;
         right: 50px;
     }
-
+    
     .product{
         width: 200px;
         height: 200px; 
@@ -438,7 +439,7 @@ footer li a:hover{
         height: 35px;
         margin-top: 10px;
     }
-
+    
     .pics img {
         margin: 18%;
         position: relative;
@@ -452,7 +453,7 @@ footer li a:hover{
         position: relative;
         left: 110px;
     }
-
+    
     .headerTop img {
         position: relative;
         right: 60px;
@@ -467,14 +468,14 @@ footer li a:hover{
     .container{
         display: none;
     }
-
+    
     .search{
         display: none;
     }
     #menuToggle{
         display: block;
     }
-
+    
 }
 
 @media screen and (max-width: 600px){
@@ -485,29 +486,29 @@ footer li a:hover{
     .products {
         margin-right: 10%;
     }
+
     h1 {
-        color: red;
         margin-right: auto;
     }
-
+    
     footer{
         display: flex;
         flex-direction: column;
         padding-right: 25%;
     }
-
+    
     .pics{
         display: flex;
         flex-direction: column;
         width: auto;
         margin-right: 15%;
     }
-
+    
     footer ul{
         display: flex;
         flex-direction: column;
     }
-
+    
     footer li{
         margin: 3%;
         width: 100%;
@@ -534,24 +535,24 @@ footer li a:hover{
     .headerTop a{
         width: 5px;
     }
-
+    
     .pics img {
         position: relative;
         left: 30px;
     }
-
+    
     .product {
         width: 80px;
         height: 80px;
         font-size: 10px;
         margin-bottom: 15%;
     }
-
+    
     .product img{
         width: 50px;
         height: 50px;
     }
-
+    
     .addToCArt{
         font-size: 10px;
     }

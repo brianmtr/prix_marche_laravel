@@ -1,3 +1,5 @@
+// menu burger
+
 let menu = document.getElementById('menu');
 let checkbox = document.getElementById('checkbox');
 
@@ -9,7 +11,6 @@ checkbox.addEventListener('click',openMenu);
         menu.style.display = 'none';
     } else {
         menu.style.display = 'block';
-    }
-    
+    } 
 
  }
